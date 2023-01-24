@@ -1,0 +1,100 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300&family=Ubuntu:wght@300&display=swap");
+body,
+* {
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+  /* background-color: #1b1b32; */
+}
+
+body {
+  background-color: rgb(229, 229, 188);
+}
+
+h2 {
+  text-align: center;
+  background-color: #0a0a23;
+  color: #fff;
+  padding: 10px;
+}
+
+section {
+  width: 90%;
+  margin: 41px auto;
+  padding: 23px 278px;
+}
+
+form div {
+  margin-bottom: 15px;
+}
+
+.input_labels,
+.radio_labels {
+  font-size: 20px;
+  font-weight: 300;
+  margin-right: 15px;
+}
+
+.inputs {
+  padding: 9px;
+  width: 70%;
+}
+
+.labels input {
+  border: none;
+  border-bottom: 2px;
+  border-radius: 5px;
+  margin-top: 10px;
+  margin-bottom: 15px;
+}
+
+.enroll {
+  padding: 8px 10px;
+  border: none;
+  box-shadow: 2px 3px;
+  background-color: rgb(211, 221, 150);
+  color: rgb(20, 21, 22);
+  font-size: 15px;
+  cursor: pointer;
+}
+
+.display {
+  margin-top: 50px;
+}
+
+h3 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.data {
+  border: 1px solid black;
+  width: 50%;
+  display: flex;
+  border-radius: 5px;
+  margin-bottom: 15px;
+}
+
+.data_body {
+  display: grid;
+  place-items: left;
+  text-transform: capitalize;
+  padding: 20px;
+}
+
+h4 {
+  text-align: left;
+}
+
+.email {
+  text-transform: lowercase;
+}
+
+.website {
+  text-transform: lowercase;
+}
+
+.image img {
+  width: 160px;
+  height: 160px;
+}
